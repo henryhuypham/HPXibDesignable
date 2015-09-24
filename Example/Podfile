@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'HPXibDesignable_Example', :exclusive => true do
+  pod "HPXibDesignable", :path => "../"
+end
+
+target 'HPXibDesignable_Tests', :exclusive => true do
+  pod "HPXibDesignable", :path => "../"
+
+  
+end
