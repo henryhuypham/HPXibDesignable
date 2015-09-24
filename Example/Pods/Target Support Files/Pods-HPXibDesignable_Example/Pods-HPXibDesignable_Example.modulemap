@@ -1,0 +1,6 @@
+framework module Pods_HPXibDesignable_Example {
+  umbrella header "Pods-HPXibDesignable_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

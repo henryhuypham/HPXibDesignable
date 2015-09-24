@@ -1,0 +1,14 @@
+PODS:
+  - HPXibDesignable (0.1.0)
+
+DEPENDENCIES:
+  - HPXibDesignable (from `../`)
+
+EXTERNAL SOURCES:
+  HPXibDesignable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HPXibDesignable: 71daaea6244a5810dc6136ea7c7a47cc694e0146
+
+COCOAPODS: 0.38.2
