@@ -6,9 +6,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   HPXibDesignable:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  HPXibDesignable: 71daaea6244a5810dc6136ea7c7a47cc694e0146
+  HPXibDesignable: 830b8a51c39886de04ddd48b160aeec155f25481
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

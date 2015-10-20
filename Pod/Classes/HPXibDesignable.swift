@@ -9,13 +9,13 @@
 import UIKit
 
 @IBDesignable
-class HPXibDesignable: UIView {
-    override init(frame: CGRect) {
+public class HPXibDesignable: UIView {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.setupNib()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.setupNib()
     }

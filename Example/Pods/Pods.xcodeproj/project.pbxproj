@@ -7,115 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03FE180898555A69DC2463855452A678 /* Pods-HPXibDesignable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD5189166393C4FC8176FFF5F41E87 /* Pods-HPXibDesignable_Tests-dummy.m */; };
-		370799713957340B019F2E4E4BB12B5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD92494BF337DE9C5022D480CAE6EF03 /* Foundation.framework */; };
-		58B2427EBE9FAE3DA94C88EF61ED2651 /* Pods-HPXibDesignable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F1AE8DE4F028A40D0781A6DEEA3E2D /* Pods-HPXibDesignable_Example-dummy.m */; };
-		64B2D8D56204F2974364491687864C22 /* HPXibDesignable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8EC5FA8E5E8A9E13249E3B37F60CF70 /* HPXibDesignable.bundle */; };
-		874649351BB3C8DF0001F82A /* HPXibDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874649341BB3C8DF0001F82A /* HPXibDesignable.swift */; settings = {ASSET_TAGS = (); }; };
-		879FD3B14993C0056220E9D67EB4E48B /* Pods-HPXibDesignable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF5F0CB78A2DAA2B26874F793983E48 /* Pods-HPXibDesignable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BA40D897D7FCB0C8A314B98D7189A3E /* HPXibDesignable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0773D983D891F5C6DCE63155A627FFB4 /* HPXibDesignable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C44C9ED971CAFBBD2C5BA9A7FF7C4EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD92494BF337DE9C5022D480CAE6EF03 /* Foundation.framework */; };
-		D0DF6C5E60A8336E7F08112E2B7D9C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD92494BF337DE9C5022D480CAE6EF03 /* Foundation.framework */; };
-		DB171A9BF7E6979CA277FFFB836443D5 /* Pods-HPXibDesignable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2429BE2C01B02E329980AE6D01A3C8 /* Pods-HPXibDesignable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFAE400806326AD4D5F33AEFA05D5113 /* HPXibDesignable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E8E4B8B53F34B1D514A51C5E56885B /* HPXibDesignable-dummy.m */; };
+		0BADFF757862A029DE22D8A80276DAFD /* HPXibDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C25FE595D975FDAE88985F97251646 /* HPXibDesignable.swift */; };
+		2638BA961548A214FECE529D814AAF0C /* Pods-HPXibDesignable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB30518F835678AB4E030131FC298B6 /* Pods-HPXibDesignable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36F65E8757DC0B1F078E5F7C794A8647 /* HPXibDesignable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F06BD7F23F0275008C6566BD80F9FAE8 /* HPXibDesignable.bundle */; };
+		82DADB8C842ED1E67AB7C72BF3E3C8E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		92965A2A1F183D20478029461D269D33 /* Pods-HPXibDesignable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C763ED70E7F1BFB8FFD8EA8F35595BF6 /* Pods-HPXibDesignable_Tests-dummy.m */; };
+		94106FD159F045C974B8CAA278AD4633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B1670DEF1C8F5239830D4EC07B1A97D2 /* Pods-HPXibDesignable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C2E8E0428CBA224830CDC6ADA4EF33 /* Pods-HPXibDesignable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B681BD4F397A34BCC420F2996AE91CFA /* HPXibDesignable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CB2BFC6413ED64F236986154AFA243 /* HPXibDesignable-dummy.m */; };
+		C8201B828350F191AAA7678732217E0E /* HPXibDesignable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E96BCD8FFFEA6D0B1CA7736ADCDE15AB /* HPXibDesignable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAD4B0C8B7761153E572F3AEE8105500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F3923F7B6ACB75216A5C7C96C1D0A281 /* Pods-HPXibDesignable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D84A2A8F1D6FD6F45A275A87A8F71F9 /* Pods-HPXibDesignable_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		219191DEDF8FCDC17373FBD5848D2B24 /* PBXContainerItemProxy */ = {
+		60C08A0DD981D0ADB13052A18AEE0008 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F4363FDA4834CC2D3A2686F3A738B8A;
+			remoteGlobalIDString = FE6CBEDB29EB6ECDBFCD97AFF089C836;
 			remoteInfo = HPXibDesignable;
 		};
-		519AB61E37BD9E5BE76901CDE1304D17 /* PBXContainerItemProxy */ = {
+		868B2E8C344D14BD1D8A3624EDD29EFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F4363FDA4834CC2D3A2686F3A738B8A;
-			remoteInfo = HPXibDesignable;
-		};
-		A21E6FC2D4A878A32DF058D9C738D9CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E7FAE8E2BEE35B2EF9652D3F58D49B34;
+			remoteGlobalIDString = 960E595D33ACBADBA17EFE241CF18D7B;
 			remoteInfo = "HPXibDesignable-HPXibDesignable";
+		};
+		C491422BB18D4BFA9593BAE19477742A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6CBEDB29EB6ECDBFCD97AFF089C836;
+			remoteInfo = HPXibDesignable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0773D983D891F5C6DCE63155A627FFB4 /* HPXibDesignable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPXibDesignable-umbrella.h"; sourceTree = "<group>"; };
+		01C517B92E49E45AFE34EF41AD51654E /* Pods_HPXibDesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPXibDesignable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DF735DC6EF446B46F3FFC883D5172B /* HPXibDesignable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HPXibDesignable.xcconfig; sourceTree = "<group>"; };
 		0A353233FA1ECC583A8BDC3B4D5BE105 /* Pods-HPXibDesignable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPXibDesignable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1801304857D86DA82FEB3B3175436939 /* HPXibDesignable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HPXibDesignable.xcconfig; sourceTree = "<group>"; };
-		2095AD55FF22C83E6043E61C6794CC3A /* Pods-HPXibDesignable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPXibDesignable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0D84A2A8F1D6FD6F45A275A87A8F71F9 /* Pods-HPXibDesignable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPXibDesignable_Example-dummy.m"; sourceTree = "<group>"; };
 		27F8AF7E17F209942A7E7DE637F21ADB /* Pods-HPXibDesignable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HPXibDesignable_Example.modulemap"; sourceTree = "<group>"; };
-		396814ED387286AF2119BEEA0911436D /* HPXibDesignable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HPXibDesignable.modulemap; sourceTree = "<group>"; };
+		29CB2BFC6413ED64F236986154AFA243 /* HPXibDesignable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPXibDesignable-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43B9E3451FE4F0BF9A886A974A9DA3C0 /* Pods-HPXibDesignable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPXibDesignable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		47BD5189166393C4FC8176FFF5F41E87 /* Pods-HPXibDesignable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPXibDesignable_Tests-dummy.m"; sourceTree = "<group>"; };
-		48B07FA2EA477134AE5BD27C2D79203D /* Pods-HPXibDesignable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPXibDesignable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		55F56367CBCDB7D5F2B022356888BCEB /* Pods_HPXibDesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPXibDesignable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D116AAE39003F3BD4D42162C1156676 /* Pods-HPXibDesignable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPXibDesignable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D6E046233EB716DF9E18FA68C82FA36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		784687EDD8974513A5A3EB25CE4F9252 /* Pods-HPXibDesignable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPXibDesignable_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7D2429BE2C01B02E329980AE6D01A3C8 /* Pods-HPXibDesignable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HPXibDesignable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5EB30518F835678AB4E030131FC298B6 /* Pods-HPXibDesignable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HPXibDesignable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		63C94D235E5B30D73E0783B8D28C1C6F /* Pods-HPXibDesignable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPXibDesignable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6509855312D90303A8F3B12BDFB57B26 /* HPXibDesignable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPXibDesignable-prefix.pch"; sourceTree = "<group>"; };
 		827F54C89B8B17AEEA8D61F65E059105 /* Pods-HPXibDesignable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPXibDesignable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		830DD8BEFACAF35A555617218C620A91 /* Pods-HPXibDesignable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPXibDesignable_Tests-resources.sh"; sourceTree = "<group>"; };
 		866F8276FD6FCCCEAF720E518D7951E8 /* Pods-HPXibDesignable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPXibDesignable_Example-resources.sh"; sourceTree = "<group>"; };
-		874649341BB3C8DF0001F82A /* HPXibDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPXibDesignable.swift; sourceTree = "<group>"; };
-		88964C0D936BD22DE2DFD03DA222E524 /* HPXibDesignable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPXibDesignable-prefix.pch"; sourceTree = "<group>"; };
-		89F1AE8DE4F028A40D0781A6DEEA3E2D /* Pods-HPXibDesignable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPXibDesignable_Example-dummy.m"; sourceTree = "<group>"; };
+		9DBF5F1AC5F9FB313FFDBB5254D21FD0 /* HPXibDesignable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HPXibDesignable.modulemap; sourceTree = "<group>"; };
 		A0D5FB663581A6C1C3588849FD3C9445 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C25FE595D975FDAE88985F97251646 /* HPXibDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HPXibDesignable.swift; sourceTree = "<group>"; };
 		A3EFCDD18D1B214F6B08A67FAE3F48F9 /* Pods-HPXibDesignable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPXibDesignable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A9E8E4B8B53F34B1D514A51C5E56885B /* HPXibDesignable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPXibDesignable-dummy.m"; sourceTree = "<group>"; };
-		B1C63594074FAC184D32194DA809A625 /* Pods-HPXibDesignable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPXibDesignable_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B0C2E8E0428CBA224830CDC6ADA4EF33 /* Pods-HPXibDesignable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HPXibDesignable_Example-umbrella.h"; sourceTree = "<group>"; };
+		B0FC60895FA8FDA58D0AAA2FD3F0085B /* Pods-HPXibDesignable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPXibDesignable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA82077B41A450FE65FDDBD029CF63A9 /* HPXibDesignable-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HPXibDesignable-Private.xcconfig"; sourceTree = "<group>"; };
+		C763ED70E7F1BFB8FFD8EA8F35595BF6 /* Pods-HPXibDesignable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPXibDesignable_Tests-dummy.m"; sourceTree = "<group>"; };
 		C811BB05034BA50CFA1150B6E5796AC5 /* Pods-HPXibDesignable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HPXibDesignable_Tests.modulemap"; sourceTree = "<group>"; };
-		CC84298EB37781909D7058710F95EEB7 /* Pods_HPXibDesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPXibDesignable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA9A29DFA094C51EAA0DBF9092AD261 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEF5F0CB78A2DAA2B26874F793983E48 /* Pods-HPXibDesignable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HPXibDesignable_Example-umbrella.h"; sourceTree = "<group>"; };
+		DBF19403F7FF77CACCB1E96001CB6F54 /* Pods-HPXibDesignable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPXibDesignable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF0AA86A3ADF2B83C0CD77BD7723D993 /* Pods-HPXibDesignable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPXibDesignable_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E2C7FA3BAD65F673DB997C19BEEA2F50 /* Pods_HPXibDesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPXibDesignable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E64444FE590B96BE40F7258D5362A93B /* HPXibDesignable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HPXibDesignable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8EC5FA8E5E8A9E13249E3B37F60CF70 /* HPXibDesignable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPXibDesignable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96BCD8FFFEA6D0B1CA7736ADCDE15AB /* HPXibDesignable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPXibDesignable-umbrella.h"; sourceTree = "<group>"; };
+		EDAFA1CEC01548E06C4B64C37A10928F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06BD7F23F0275008C6566BD80F9FAE8 /* HPXibDesignable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPXibDesignable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B84F36C2AC5B359EE2EC11C2CE0243 /* Pods-HPXibDesignable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPXibDesignable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FD92494BF337DE9C5022D480CAE6EF03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F587DA11B9C5CECF1FDDDD46FAE623E6 /* HPXibDesignable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HPXibDesignable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		95F851352AA3A1EA51885744633DA457 /* Frameworks */ = {
+		27AADC3AF3F7D1A72B3353F5978FBF4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0DF6C5E60A8336E7F08112E2B7D9C6F /* Foundation.framework in Frameworks */,
+				94106FD159F045C974B8CAA278AD4633 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98B1121C6E3BEB838DB20E36D03EEA9C /* Frameworks */ = {
+		4DA7647AD5BA62CE285B82A179C58461 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				370799713957340B019F2E4E4BB12B5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0DC709D086A9C8D28B4D85A0334133A /* Frameworks */ = {
+		B39C53ED7BD561AF639AF8704040DDFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44C9ED971CAFBBD2C5BA9A7FF7C4EB9 /* Foundation.framework in Frameworks */,
+				82DADB8C842ED1E67AB7C72BF3E3C8E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0803E1EBBDB40CD5F2591B849E1F251 /* Frameworks */ = {
+		C294467BB6142A5DBF2A98B552880D35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD4B0C8B7761153E572F3AEE8105500 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FEFD43AB6AFE33DB268CFEA5A68562D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D128057452541DE877AF51F0B0F6921C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		15E71E1742984F0A67030AB0DD2288FB /* HPXibDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				0FEFD43AB6AFE33DB268CFEA5A68562D /* Pod */,
+				17B2FBFC8212F4BE1AD18E9EF50F79A1 /* Support Files */,
+			);
+			name = HPXibDesignable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		17B2FBFC8212F4BE1AD18E9EF50F79A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF5F1AC5F9FB313FFDBB5254D21FD0 /* HPXibDesignable.modulemap */,
+				06DF735DC6EF446B46F3FFC883D5172B /* HPXibDesignable.xcconfig */,
+				29CB2BFC6413ED64F236986154AFA243 /* HPXibDesignable-dummy.m */,
+				6509855312D90303A8F3B12BDFB57B26 /* HPXibDesignable-prefix.pch */,
+				E96BCD8FFFEA6D0B1CA7736ADCDE15AB /* HPXibDesignable-umbrella.h */,
+				EDAFA1CEC01548E06C4B64C37A10928F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HPXibDesignable";
+			sourceTree = "<group>";
+		};
 		34667522442A19EFCBD431CD592058F9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,36 +156,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3D5186A665FA2023734E17B2DF57AAE3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				396814ED387286AF2119BEEA0911436D /* HPXibDesignable.modulemap */,
-				1801304857D86DA82FEB3B3175436939 /* HPXibDesignable.xcconfig */,
-				BA82077B41A450FE65FDDBD029CF63A9 /* HPXibDesignable-Private.xcconfig */,
-				A9E8E4B8B53F34B1D514A51C5E56885B /* HPXibDesignable-dummy.m */,
-				88964C0D936BD22DE2DFD03DA222E524 /* HPXibDesignable-prefix.pch */,
-				0773D983D891F5C6DCE63155A627FFB4 /* HPXibDesignable-umbrella.h */,
-				DDA9A29DFA094C51EAA0DBF9092AD261 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HPXibDesignable";
-			sourceTree = "<group>";
-		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FD92494BF337DE9C5022D480CAE6EF03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				D2498861C31FD57A44BAD8A2921ABEFD /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				E2D90FACF5B4010D6A04FA1FAE7E71EE /* Products */,
 				34667522442A19EFCBD431CD592058F9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -166,25 +174,15 @@
 				C811BB05034BA50CFA1150B6E5796AC5 /* Pods-HPXibDesignable_Tests.modulemap */,
 				43B9E3451FE4F0BF9A886A974A9DA3C0 /* Pods-HPXibDesignable_Tests-acknowledgements.markdown */,
 				0A353233FA1ECC583A8BDC3B4D5BE105 /* Pods-HPXibDesignable_Tests-acknowledgements.plist */,
-				47BD5189166393C4FC8176FFF5F41E87 /* Pods-HPXibDesignable_Tests-dummy.m */,
+				C763ED70E7F1BFB8FFD8EA8F35595BF6 /* Pods-HPXibDesignable_Tests-dummy.m */,
 				DF0AA86A3ADF2B83C0CD77BD7723D993 /* Pods-HPXibDesignable_Tests-frameworks.sh */,
 				830DD8BEFACAF35A555617218C620A91 /* Pods-HPXibDesignable_Tests-resources.sh */,
-				7D2429BE2C01B02E329980AE6D01A3C8 /* Pods-HPXibDesignable_Tests-umbrella.h */,
-				48B07FA2EA477134AE5BD27C2D79203D /* Pods-HPXibDesignable_Tests.debug.xcconfig */,
-				2095AD55FF22C83E6043E61C6794CC3A /* Pods-HPXibDesignable_Tests.release.xcconfig */,
+				5EB30518F835678AB4E030131FC298B6 /* Pods-HPXibDesignable_Tests-umbrella.h */,
+				63C94D235E5B30D73E0783B8D28C1C6F /* Pods-HPXibDesignable_Tests.debug.xcconfig */,
+				DBF19403F7FF77CACCB1E96001CB6F54 /* Pods-HPXibDesignable_Tests.release.xcconfig */,
 			);
 			name = "Pods-HPXibDesignable_Tests";
 			path = "Target Support Files/Pods-HPXibDesignable_Tests";
-			sourceTree = "<group>";
-		};
-		A700478DA2A2518DBB450E814D99D8CC /* HPXibDesignable */ = {
-			isa = PBXGroup;
-			children = (
-				EBBAF1F1696040B25839475E062F4255 /* Pod */,
-				3D5186A665FA2023734E17B2DF57AAE3 /* Support Files */,
-			);
-			name = HPXibDesignable;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B5EEB2F20532C84232E08B0EFF9D49B3 /* Pods-HPXibDesignable_Example */ = {
@@ -194,12 +192,12 @@
 				27F8AF7E17F209942A7E7DE637F21ADB /* Pods-HPXibDesignable_Example.modulemap */,
 				827F54C89B8B17AEEA8D61F65E059105 /* Pods-HPXibDesignable_Example-acknowledgements.markdown */,
 				F0B84F36C2AC5B359EE2EC11C2CE0243 /* Pods-HPXibDesignable_Example-acknowledgements.plist */,
-				89F1AE8DE4F028A40D0781A6DEEA3E2D /* Pods-HPXibDesignable_Example-dummy.m */,
+				0D84A2A8F1D6FD6F45A275A87A8F71F9 /* Pods-HPXibDesignable_Example-dummy.m */,
 				A3EFCDD18D1B214F6B08A67FAE3F48F9 /* Pods-HPXibDesignable_Example-frameworks.sh */,
 				866F8276FD6FCCCEAF720E518D7951E8 /* Pods-HPXibDesignable_Example-resources.sh */,
-				DEF5F0CB78A2DAA2B26874F793983E48 /* Pods-HPXibDesignable_Example-umbrella.h */,
-				784687EDD8974513A5A3EB25CE4F9252 /* Pods-HPXibDesignable_Example.debug.xcconfig */,
-				B1C63594074FAC184D32194DA809A625 /* Pods-HPXibDesignable_Example.release.xcconfig */,
+				B0C2E8E0428CBA224830CDC6ADA4EF33 /* Pods-HPXibDesignable_Example-umbrella.h */,
+				B0FC60895FA8FDA58D0AAA2FD3F0085B /* Pods-HPXibDesignable_Example.debug.xcconfig */,
+				5D116AAE39003F3BD4D42162C1156676 /* Pods-HPXibDesignable_Example.release.xcconfig */,
 			);
 			name = "Pods-HPXibDesignable_Example";
 			path = "Target Support Files/Pods-HPXibDesignable_Example";
@@ -208,138 +206,101 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E8EC5FA8E5E8A9E13249E3B37F60CF70 /* HPXibDesignable.bundle */,
-				E64444FE590B96BE40F7258D5362A93B /* HPXibDesignable.framework */,
-				E2C7FA3BAD65F673DB997C19BEEA2F50 /* Pods_HPXibDesignable_Example.framework */,
-				CC84298EB37781909D7058710F95EEB7 /* Pods_HPXibDesignable_Tests.framework */,
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D128057452541DE877AF51F0B0F6921C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A2C25FE595D975FDAE88985F97251646 /* HPXibDesignable.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D2498861C31FD57A44BAD8A2921ABEFD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A700478DA2A2518DBB450E814D99D8CC /* HPXibDesignable */,
+				15E71E1742984F0A67030AB0DD2288FB /* HPXibDesignable */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D7FFD2426E25204897113ABBD0320528 /* Classes */ = {
+		E2D90FACF5B4010D6A04FA1FAE7E71EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				874649341BB3C8DF0001F82A /* HPXibDesignable.swift */,
+				F06BD7F23F0275008C6566BD80F9FAE8 /* HPXibDesignable.bundle */,
+				F587DA11B9C5CECF1FDDDD46FAE623E6 /* HPXibDesignable.framework */,
+				55F56367CBCDB7D5F2B022356888BCEB /* Pods_HPXibDesignable_Example.framework */,
+				01C517B92E49E45AFE34EF41AD51654E /* Pods_HPXibDesignable_Tests.framework */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		EBBAF1F1696040B25839475E062F4255 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D7FFD2426E25204897113ABBD0320528 /* Classes */,
-			);
-			path = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		514ACFCDC0EF0A16B7E4959D9BD40A87 /* Headers */ = {
+		52939920BBA88E9BD4B0753F0833D932 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879FD3B14993C0056220E9D67EB4E48B /* Pods-HPXibDesignable_Example-umbrella.h in Headers */,
+				2638BA961548A214FECE529D814AAF0C /* Pods-HPXibDesignable_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB6D47E7B148C02180EFE19B24FFA8A3 /* Headers */ = {
+		744DA6E05F24C85F080B6A54C43884B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA40D897D7FCB0C8A314B98D7189A3E /* HPXibDesignable-umbrella.h in Headers */,
+				C8201B828350F191AAA7678732217E0E /* HPXibDesignable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAADD3448FCADD75FF9A8DD5425F49C2 /* Headers */ = {
+		A7EFBAAC50430724063CDF1EFF7511C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB171A9BF7E6979CA277FFFB836443D5 /* Pods-HPXibDesignable_Tests-umbrella.h in Headers */,
+				B1670DEF1C8F5239830D4EC07B1A97D2 /* Pods-HPXibDesignable_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6F4363FDA4834CC2D3A2686F3A738B8A /* HPXibDesignable */ = {
+		511F9C935F6F9314F1CFD5456AABE9B7 /* Pods-HPXibDesignable_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3083506FEB50520FEA99BEB5D2BCC28F /* Build configuration list for PBXNativeTarget "HPXibDesignable" */;
+			buildConfigurationList = 9B69C2ABB24FE38DA4FFD98318091A3A /* Build configuration list for PBXNativeTarget "Pods-HPXibDesignable_Tests" */;
 			buildPhases = (
-				B89468C951E5C4A99E00A43A69236B56 /* Sources */,
-				98B1121C6E3BEB838DB20E36D03EEA9C /* Frameworks */,
-				700097F0E8933A7EA0CA54E619052DE7 /* Resources */,
-				EB6D47E7B148C02180EFE19B24FFA8A3 /* Headers */,
+				D20F4AD81666B91264E04AC7B01930B5 /* Sources */,
+				B39C53ED7BD561AF639AF8704040DDFE /* Frameworks */,
+				52939920BBA88E9BD4B0753F0833D932 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7CC72B2651704626C15E90E3CF7A8704 /* PBXTargetDependency */,
-			);
-			name = HPXibDesignable;
-			productName = HPXibDesignable;
-			productReference = E64444FE590B96BE40F7258D5362A93B /* HPXibDesignable.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7399CF8E9746D1616462D7E86F18ADF9 /* Pods-HPXibDesignable_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F00A90A3C9196379D892D4C4859D732 /* Build configuration list for PBXNativeTarget "Pods-HPXibDesignable_Tests" */;
-			buildPhases = (
-				A43AA119A1704FAD135A40774C5DA228 /* Sources */,
-				95F851352AA3A1EA51885744633DA457 /* Frameworks */,
-				FAADD3448FCADD75FF9A8DD5425F49C2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5B957F1346F5BAB18DFEA114FD9859B6 /* PBXTargetDependency */,
+				8DAB0BA0A6AA9743907A7E305865C27E /* PBXTargetDependency */,
 			);
 			name = "Pods-HPXibDesignable_Tests";
 			productName = "Pods-HPXibDesignable_Tests";
-			productReference = CC84298EB37781909D7058710F95EEB7 /* Pods_HPXibDesignable_Tests.framework */;
+			productReference = 01C517B92E49E45AFE34EF41AD51654E /* Pods_HPXibDesignable_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		740B96A88DE90CB87E59C0AF59D1B942 /* Pods-HPXibDesignable_Example */ = {
+		960E595D33ACBADBA17EFE241CF18D7B /* HPXibDesignable-HPXibDesignable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E44F2A55951F350CBFDEC3A6FA2EAC0 /* Build configuration list for PBXNativeTarget "Pods-HPXibDesignable_Example" */;
+			buildConfigurationList = 964E140E788EEC1732FA0AD9FC862D7D /* Build configuration list for PBXNativeTarget "HPXibDesignable-HPXibDesignable" */;
 			buildPhases = (
-				DC5CF0BA45E9900CC26D57E05EB6AB58 /* Sources */,
-				E0DC709D086A9C8D28B4D85A0334133A /* Frameworks */,
-				514ACFCDC0EF0A16B7E4959D9BD40A87 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71713885C5011555770D5966CFEA3F4C /* PBXTargetDependency */,
-			);
-			name = "Pods-HPXibDesignable_Example";
-			productName = "Pods-HPXibDesignable_Example";
-			productReference = E2C7FA3BAD65F673DB997C19BEEA2F50 /* Pods_HPXibDesignable_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E7FAE8E2BEE35B2EF9652D3F58D49B34 /* HPXibDesignable-HPXibDesignable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B8ED9D2C8A90E0728F469CA3A59F28F /* Build configuration list for PBXNativeTarget "HPXibDesignable-HPXibDesignable" */;
-			buildPhases = (
-				9BC2924ED5261C858BED77985383C56F /* Sources */,
-				F0803E1EBBDB40CD5F2591B849E1F251 /* Frameworks */,
-				00313878F59D0D75538C6D6FF7D86FC0 /* Resources */,
+				E66FD7369AF5EF6DE38136DAD301A7E1 /* Sources */,
+				4DA7647AD5BA62CE285B82A179C58461 /* Frameworks */,
+				88F1511042A35314A3902622436B31CD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,8 +308,45 @@
 			);
 			name = "HPXibDesignable-HPXibDesignable";
 			productName = "HPXibDesignable-HPXibDesignable";
-			productReference = E8EC5FA8E5E8A9E13249E3B37F60CF70 /* HPXibDesignable.bundle */;
+			productReference = F06BD7F23F0275008C6566BD80F9FAE8 /* HPXibDesignable.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		A6A5284BD5B92CA391325ABC4638726D /* Pods-HPXibDesignable_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8396A351063CE77F9D7ED5A037F8CDB /* Build configuration list for PBXNativeTarget "Pods-HPXibDesignable_Example" */;
+			buildPhases = (
+				85BEA62421358B729857EE4A816CC4F4 /* Sources */,
+				27AADC3AF3F7D1A72B3353F5978FBF4B /* Frameworks */,
+				A7EFBAAC50430724063CDF1EFF7511C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B26C5912E649D51A23837790D17874 /* PBXTargetDependency */,
+			);
+			name = "Pods-HPXibDesignable_Example";
+			productName = "Pods-HPXibDesignable_Example";
+			productReference = 55F56367CBCDB7D5F2B022356888BCEB /* Pods_HPXibDesignable_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE6CBEDB29EB6ECDBFCD97AFF089C836 /* HPXibDesignable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82C2B0730D00A90152A80E90B2294D4 /* Build configuration list for PBXNativeTarget "HPXibDesignable" */;
+			buildPhases = (
+				0B26C0B5FB404FA0DD049EECFFF4F3A6 /* Sources */,
+				C294467BB6142A5DBF2A98B552880D35 /* Frameworks */,
+				A4FD72E5F07342598D87AD4AF54F14F6 /* Resources */,
+				744DA6E05F24C85F080B6A54C43884B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2363856AAB68CA4409D12DA6440E0EFF /* PBXTargetDependency */,
+			);
+			name = HPXibDesignable;
+			productName = HPXibDesignable;
+			productReference = F587DA11B9C5CECF1FDDDD46FAE623E6 /* HPXibDesignable.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -367,121 +365,93 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = E2D90FACF5B4010D6A04FA1FAE7E71EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F4363FDA4834CC2D3A2686F3A738B8A /* HPXibDesignable */,
-				E7FAE8E2BEE35B2EF9652D3F58D49B34 /* HPXibDesignable-HPXibDesignable */,
-				740B96A88DE90CB87E59C0AF59D1B942 /* Pods-HPXibDesignable_Example */,
-				7399CF8E9746D1616462D7E86F18ADF9 /* Pods-HPXibDesignable_Tests */,
+				FE6CBEDB29EB6ECDBFCD97AFF089C836 /* HPXibDesignable */,
+				960E595D33ACBADBA17EFE241CF18D7B /* HPXibDesignable-HPXibDesignable */,
+				A6A5284BD5B92CA391325ABC4638726D /* Pods-HPXibDesignable_Example */,
+				511F9C935F6F9314F1CFD5456AABE9B7 /* Pods-HPXibDesignable_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00313878F59D0D75538C6D6FF7D86FC0 /* Resources */ = {
+		88F1511042A35314A3902622436B31CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		700097F0E8933A7EA0CA54E619052DE7 /* Resources */ = {
+		A4FD72E5F07342598D87AD4AF54F14F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64B2D8D56204F2974364491687864C22 /* HPXibDesignable.bundle in Resources */,
+				36F65E8757DC0B1F078E5F7C794A8647 /* HPXibDesignable.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9BC2924ED5261C858BED77985383C56F /* Sources */ = {
+		0B26C0B5FB404FA0DD049EECFFF4F3A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B681BD4F397A34BCC420F2996AE91CFA /* HPXibDesignable-dummy.m in Sources */,
+				0BADFF757862A029DE22D8A80276DAFD /* HPXibDesignable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A43AA119A1704FAD135A40774C5DA228 /* Sources */ = {
+		85BEA62421358B729857EE4A816CC4F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03FE180898555A69DC2463855452A678 /* Pods-HPXibDesignable_Tests-dummy.m in Sources */,
+				F3923F7B6ACB75216A5C7C96C1D0A281 /* Pods-HPXibDesignable_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B89468C951E5C4A99E00A43A69236B56 /* Sources */ = {
+		D20F4AD81666B91264E04AC7B01930B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFAE400806326AD4D5F33AEFA05D5113 /* HPXibDesignable-dummy.m in Sources */,
-				874649351BB3C8DF0001F82A /* HPXibDesignable.swift in Sources */,
+				92965A2A1F183D20478029461D269D33 /* Pods-HPXibDesignable_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC5CF0BA45E9900CC26D57E05EB6AB58 /* Sources */ = {
+		E66FD7369AF5EF6DE38136DAD301A7E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B2427EBE9FAE3DA94C88EF61ED2651 /* Pods-HPXibDesignable_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B957F1346F5BAB18DFEA114FD9859B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HPXibDesignable;
-			target = 6F4363FDA4834CC2D3A2686F3A738B8A /* HPXibDesignable */;
-			targetProxy = 519AB61E37BD9E5BE76901CDE1304D17 /* PBXContainerItemProxy */;
-		};
-		71713885C5011555770D5966CFEA3F4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HPXibDesignable;
-			target = 6F4363FDA4834CC2D3A2686F3A738B8A /* HPXibDesignable */;
-			targetProxy = 219191DEDF8FCDC17373FBD5848D2B24 /* PBXContainerItemProxy */;
-		};
-		7CC72B2651704626C15E90E3CF7A8704 /* PBXTargetDependency */ = {
+		2363856AAB68CA4409D12DA6440E0EFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HPXibDesignable-HPXibDesignable";
-			target = E7FAE8E2BEE35B2EF9652D3F58D49B34 /* HPXibDesignable-HPXibDesignable */;
-			targetProxy = A21E6FC2D4A878A32DF058D9C738D9CF /* PBXContainerItemProxy */;
+			target = 960E595D33ACBADBA17EFE241CF18D7B /* HPXibDesignable-HPXibDesignable */;
+			targetProxy = 868B2E8C344D14BD1D8A3624EDD29EFE /* PBXContainerItemProxy */;
+		};
+		8DAB0BA0A6AA9743907A7E305865C27E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HPXibDesignable;
+			target = FE6CBEDB29EB6ECDBFCD97AFF089C836 /* HPXibDesignable */;
+			targetProxy = 60C08A0DD981D0ADB13052A18AEE0008 /* PBXContainerItemProxy */;
+		};
+		C0B26C5912E649D51A23837790D17874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HPXibDesignable;
+			target = FE6CBEDB29EB6ECDBFCD97AFF089C836 /* HPXibDesignable */;
+			targetProxy = C491422BB18D4BFA9593BAE19477742A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04BB24B0949EEA3F754A29EFE5F76443 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA82077B41A450FE65FDDBD029CF63A9 /* HPXibDesignable-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HPXibDesignable/HPXibDesignable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HPXibDesignable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HPXibDesignable/HPXibDesignable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = HPXibDesignable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -516,9 +486,39 @@
 			};
 			name = Release;
 		};
-		45FE160C37192AFD5100DC969866DF98 /* Debug */ = {
+		121FE0C28491F4FC4C206B8F4FA47570 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48B07FA2EA477134AE5BD27C2D79203D /* Pods-HPXibDesignable_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5D116AAE39003F3BD4D42162C1156676 /* Pods-HPXibDesignable_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HPXibDesignable_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HPXibDesignable_Example/Pods-HPXibDesignable_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HPXibDesignable_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31A91C95483E8280B28B49E2DD372A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF19403F7FF77CACCB1E96001CB6F54 /* Pods-HPXibDesignable_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -531,13 +531,43 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HPXibDesignable_Tests/Pods-HPXibDesignable_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HPXibDesignable_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		481CD4E5CF1D5E7C46B2FDE73E088FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FC60895FA8FDA58D0AAA2FD3F0085B /* Pods-HPXibDesignable_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HPXibDesignable_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HPXibDesignable_Example/Pods-HPXibDesignable_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HPXibDesignable_Tests;
+				PRODUCT_NAME = Pods_HPXibDesignable_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -547,9 +577,9 @@
 			};
 			name = Debug;
 		};
-		52C07C5EA49CF6F7BA4F7FAAC62D8834 /* Debug */ = {
+		4CC3B1084DBA3D5C7C72EDFCD2EF304A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA82077B41A450FE65FDDBD029CF63A9 /* HPXibDesignable-Private.xcconfig */;
+			baseConfigurationReference = 06DF735DC6EF446B46F3FFC883D5172B /* HPXibDesignable.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = HPXibDesignable;
@@ -577,7 +607,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -599,9 +628,9 @@
 			};
 			name = Debug;
 		};
-		5EB7FFD83755BBD21EC1D60D885AE041 /* Debug */ = {
+		5E97B5E2FF6AA11A9BB59720A45C623F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 784687EDD8974513A5A3EB25CE4F9252 /* Pods-HPXibDesignable_Example.debug.xcconfig */;
+			baseConfigurationReference = 06DF735DC6EF446B46F3FFC883D5172B /* HPXibDesignable.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -610,17 +639,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HPXibDesignable_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HPXibDesignable/HPXibDesignable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPXibDesignable/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-HPXibDesignable_Example/Pods-HPXibDesignable_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/HPXibDesignable/HPXibDesignable.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HPXibDesignable_Example;
+				PRODUCT_NAME = HPXibDesignable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -630,9 +656,21 @@
 			};
 			name = Debug;
 		};
-		5F9CA056177C099644CD2B7FD98F02ED /* Release */ = {
+		8DF384CAC138215964B1682BAABDE43C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2095AD55FF22C83E6043E61C6794CC3A /* Pods-HPXibDesignable_Tests.release.xcconfig */;
+			baseConfigurationReference = 06DF735DC6EF446B46F3FFC883D5172B /* HPXibDesignable.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HPXibDesignable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A92A79DF6CC351D866CEA8F3F180475D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C94D235E5B30D73E0783B8D28C1C6F /* Pods-HPXibDesignable_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -645,83 +683,13 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HPXibDesignable_Tests/Pods-HPXibDesignable_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HPXibDesignable_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		72CEF778F5B3AED1CB8F2E4ADC1B1A2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1C63594074FAC184D32194DA809A625 /* Pods-HPXibDesignable_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HPXibDesignable_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-HPXibDesignable_Example/Pods-HPXibDesignable_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HPXibDesignable_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BC70E9F8B25F48C1508AAAD0B729CC3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA82077B41A450FE65FDDBD029CF63A9 /* HPXibDesignable-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = HPXibDesignable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		EAFF0BC8FD662829E6B7982C733356C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA82077B41A450FE65FDDBD029CF63A9 /* HPXibDesignable-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HPXibDesignable/HPXibDesignable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HPXibDesignable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HPXibDesignable/HPXibDesignable.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = HPXibDesignable;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HPXibDesignable_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -730,6 +698,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C75E827FF02D11FAF074F121D7B973E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DF735DC6EF446B46F3FFC883D5172B /* HPXibDesignable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HPXibDesignable/HPXibDesignable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPXibDesignable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HPXibDesignable/HPXibDesignable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HPXibDesignable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -743,38 +738,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3083506FEB50520FEA99BEB5D2BCC28F /* Build configuration list for PBXNativeTarget "HPXibDesignable" */ = {
+		964E140E788EEC1732FA0AD9FC862D7D /* Build configuration list for PBXNativeTarget "HPXibDesignable-HPXibDesignable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAFF0BC8FD662829E6B7982C733356C0 /* Debug */,
-				04BB24B0949EEA3F754A29EFE5F76443 /* Release */,
+				4CC3B1084DBA3D5C7C72EDFCD2EF304A /* Debug */,
+				8DF384CAC138215964B1682BAABDE43C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E44F2A55951F350CBFDEC3A6FA2EAC0 /* Build configuration list for PBXNativeTarget "Pods-HPXibDesignable_Example" */ = {
+		9B69C2ABB24FE38DA4FFD98318091A3A /* Build configuration list for PBXNativeTarget "Pods-HPXibDesignable_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EB7FFD83755BBD21EC1D60D885AE041 /* Debug */,
-				72CEF778F5B3AED1CB8F2E4ADC1B1A2E /* Release */,
+				A92A79DF6CC351D866CEA8F3F180475D /* Debug */,
+				31A91C95483E8280B28B49E2DD372A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B8ED9D2C8A90E0728F469CA3A59F28F /* Build configuration list for PBXNativeTarget "HPXibDesignable-HPXibDesignable" */ = {
+		B82C2B0730D00A90152A80E90B2294D4 /* Build configuration list for PBXNativeTarget "HPXibDesignable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52C07C5EA49CF6F7BA4F7FAAC62D8834 /* Debug */,
-				BC70E9F8B25F48C1508AAAD0B729CC3D /* Release */,
+				5E97B5E2FF6AA11A9BB59720A45C623F /* Debug */,
+				C75E827FF02D11FAF074F121D7B973E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F00A90A3C9196379D892D4C4859D732 /* Build configuration list for PBXNativeTarget "Pods-HPXibDesignable_Tests" */ = {
+		B8396A351063CE77F9D7ED5A037F8CDB /* Build configuration list for PBXNativeTarget "Pods-HPXibDesignable_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45FE160C37192AFD5100DC969866DF98 /* Debug */,
-				5F9CA056177C099644CD2B7FD98F02ED /* Release */,
+				481CD4E5CF1D5E7C46B2FDE73E088FCE /* Debug */,
+				121FE0C28491F4FC4C206B8F4FA47570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

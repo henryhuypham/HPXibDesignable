@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49990CAF55A69DA1B0763CC9 /* Pods_HPXibDesignable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA87D4C631125CD918F830C /* Pods_HPXibDesignable_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		518A0CA2C4A5707ADB1ADD27 /* Pods_HPXibDesignable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EA14EB656EA55D86966A20 /* Pods_HPXibDesignable_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		49990CAF55A69DA1B0763CC9 /* Pods_HPXibDesignable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA87D4C631125CD918F830C /* Pods_HPXibDesignable_Tests.framework */; };
+		518A0CA2C4A5707ADB1ADD27 /* Pods_HPXibDesignable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EA14EB656EA55D86966A20 /* Pods_HPXibDesignable_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		874649371BB3CA3A0001F82A /* HPRenderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874649361BB3CA3A0001F82A /* HPRenderedView.swift */; settings = {ASSET_TAGS = (); }; };
+		87D57C391BD6353200157AE3 /* HPRenderedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D57C381BD6353200157AE3 /* HPRenderedView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +41,14 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = HPXibDesignable_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* HPXibDesignable_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPXibDesignable_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7DA87D4C631125CD918F830C /* Pods_HPXibDesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPXibDesignable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8618779380B63142CE86DA72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		874649361BB3CA3A0001F82A /* HPRenderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPRenderedView.swift; sourceTree = "<group>"; };
+		874649381BB3CA460001F82A /* HPXibDesignable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HPXibDesignable.framework; path = "Pods/../build/Debug-iphoneos/HPXibDesignable.framework"; sourceTree = "<group>"; };
+		87D57C381BD6353200157AE3 /* HPRenderedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPRenderedView.xib; sourceTree = "<group>"; };
 		C84801F0ADD195E18D5F9AE2 /* HPXibDesignable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HPXibDesignable.podspec; path = ../HPXibDesignable.podspec; sourceTree = "<group>"; };
 		CB6DFEABBFA81FB3C39437C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F97F79721E9A9A085BE22609 /* Pods-HPXibDesignable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPXibDesignable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPXibDesignable_Example/Pods-HPXibDesignable_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* HPXibDesignable_Example.app */,
-				607FACE51AFB9204008FA782 /* Tests.xctest */,
+				607FACE51AFB9204008FA782 /* HPXibDesignable_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,11 +109,13 @@
 		607FACD21AFB9204008FA782 /* Example for HPXibDesignable */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				874649361BB3CA3A0001F82A /* HPRenderedView.swift */,
+				87D57C381BD6353200157AE3 /* HPRenderedView.xib */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for HPXibDesignable";
@@ -153,6 +160,7 @@
 		CA771A738FB993017AEA19FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				874649381BB3CA460001F82A /* HPXibDesignable.framework */,
 				09EA14EB656EA55D86966A20 /* Pods_HPXibDesignable_Example.framework */,
 				7DA87D4C631125CD918F830C /* Pods_HPXibDesignable_Tests.framework */,
 			);
@@ -200,7 +208,7 @@
 			);
 			name = HPXibDesignable_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* HPXibDesignable_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -249,6 +257,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				87D57C391BD6353200157AE3 /* HPRenderedView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +370,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				874649371BB3CA3A0001F82A /* HPRenderedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +498,10 @@
 			baseConfigurationReference = 4F522A09C76C8AB3067AAC6A /* Pods-HPXibDesignable_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = HPXibDesignable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -500,6 +514,10 @@
 			baseConfigurationReference = F97F79721E9A9A085BE22609 /* Pods-HPXibDesignable_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = HPXibDesignable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
