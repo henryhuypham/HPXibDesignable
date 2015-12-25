@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-public class HPControlXibDesignable: UIView {
+public class HPControlXibDesignable: UIControl {
     public override init(frame: CGRect) {
         super.init(frame: frame)
         self.setupNib()
