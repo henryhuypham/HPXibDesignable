@@ -11,6 +11,7 @@
 		2638BA961548A214FECE529D814AAF0C /* Pods-HPXibDesignable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB30518F835678AB4E030131FC298B6 /* Pods-HPXibDesignable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36F65E8757DC0B1F078E5F7C794A8647 /* HPXibDesignable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F06BD7F23F0275008C6566BD80F9FAE8 /* HPXibDesignable.bundle */; };
 		82DADB8C842ED1E67AB7C72BF3E3C8E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		87EA87971C2D442C00B00845 /* HPControlXibDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EA87961C2D442C00B00845 /* HPControlXibDesignable.swift */; };
 		92965A2A1F183D20478029461D269D33 /* Pods-HPXibDesignable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C763ED70E7F1BFB8FFD8EA8F35595BF6 /* Pods-HPXibDesignable_Tests-dummy.m */; };
 		94106FD159F045C974B8CAA278AD4633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		B1670DEF1C8F5239830D4EC07B1A97D2 /* Pods-HPXibDesignable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C2E8E0428CBA224830CDC6ADA4EF33 /* Pods-HPXibDesignable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,6 +63,7 @@
 		827F54C89B8B17AEEA8D61F65E059105 /* Pods-HPXibDesignable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPXibDesignable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		830DD8BEFACAF35A555617218C620A91 /* Pods-HPXibDesignable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPXibDesignable_Tests-resources.sh"; sourceTree = "<group>"; };
 		866F8276FD6FCCCEAF720E518D7951E8 /* Pods-HPXibDesignable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPXibDesignable_Example-resources.sh"; sourceTree = "<group>"; };
+		87EA87961C2D442C00B00845 /* HPControlXibDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPControlXibDesignable.swift; sourceTree = "<group>"; };
 		9DBF5F1AC5F9FB313FFDBB5254D21FD0 /* HPXibDesignable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HPXibDesignable.modulemap; sourceTree = "<group>"; };
 		A0D5FB663581A6C1C3588849FD3C9445 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2C25FE595D975FDAE88985F97251646 /* HPXibDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HPXibDesignable.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				A2C25FE595D975FDAE88985F97251646 /* HPXibDesignable.swift */,
+				87EA87961C2D442C00B00845 /* HPControlXibDesignable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 			files = (
 				B681BD4F397A34BCC420F2996AE91CFA /* HPXibDesignable-dummy.m in Sources */,
 				0BADFF757862A029DE22D8A80276DAFD /* HPXibDesignable.swift in Sources */,
+				87EA87971C2D442C00B00845 /* HPControlXibDesignable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
