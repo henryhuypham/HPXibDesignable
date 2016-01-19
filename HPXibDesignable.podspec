@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HPXibDesignable"
-  s.version          = "0.1.4"
+  s.version          = "0.1.5"
   s.summary          = "A base class that helps its subclasses (associated with a xib file with the same name as the class) to be rendered in Interface Builder."
 
 # This description is used to generate tags and improve search results.
