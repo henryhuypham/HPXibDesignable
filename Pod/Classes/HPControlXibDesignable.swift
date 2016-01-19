@@ -37,7 +37,7 @@ public class HPControlXibDesignable: UIControl {
         return nib.instantiateWithOwner(self, options: nil)[0] as! UIView
     }
     
-    private func nibName() -> String {
+    public func nibName() -> String {
         return self.dynamicType.description().componentsSeparatedByString(".").last!
     }
 }
